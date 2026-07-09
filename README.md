@@ -1,3 +1,84 @@
-[1;32mzsh[0m: command [1;35mNOT[0m found: [0;1m'ececho'[0m
-[0;1mSearching for packages that provide '[0;1mececho[1;32m'...
-[0m[0;1m[1;32m[ ececho ][0m [1;35mNOT[0m found in the system and no package provides it.
+# 📰 News App
+
+A modern Android News application built with Kotlin and Jetpack Compose.
+
+## ✨ Features
+
+- 🔍 Search news articles
+- ♾️ Infinite scrolling (Pagination)
+- 📰 Latest news
+- 📄 News details
+- ⚡ Fast and responsive UI
+- ❌ Error handling
+- 📭 Empty state support
+
+## 📱 Screenshots
+
+Home
+
+<p align="center">
+  <img src="screenshots/home.png" width="220"/>
+</p>
+
+Details
+
+<p align="center">
+  <img src="screenshots/details.png" width="220"/>
+</p>
+
+## 🛠 Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- MVVM
+- Clean Architecture
+- Retrofit
+- Coroutines
+- StateFlow
+- Navigation Compose
+- Coil
+
+## 📂 Architecture
+
+```
+Presentation
+│
+├── ViewModel
+├── Screen
+└── Components
+
+Domain
+│
+├── Models
+└── Repository
+
+Data
+│
+├── Remote
+├── DTO
+└── Repository
+```
+
+## 🌐 API
+
+This project uses the Free News API.
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/NewsApp.git
+```
+
+2. Create a `local.properties` file (or edit the existing one) and add your API key:
+
+```properties
+NEWS_API_KEY=YOUR_API_KEY
+```
+
+3. Build and run the project.
+
+## 📄 License
+
+This project is licensed under the MIT License.
