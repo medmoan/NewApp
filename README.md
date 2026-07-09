@@ -61,7 +61,7 @@ Data
 
 ## 🌐 API
 
-This project uses the Free News API. <span><a href="freenewsapi.io" alt="freenewsapi">freenewsapi</a></span>
+This project uses the [Free News API](https://www.freenewsapi.io/).
 
 ## 🚀 Getting Started
 
