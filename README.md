@@ -68,7 +68,7 @@ This project uses the [Free News API](https://www.freenewsapi.io/).
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NewsApp.git
+git clone https://github.com/medmoan/NewsApp.git
 ```
 
 2. Create a `local.properties` file (or edit the existing one) and add your API key:
